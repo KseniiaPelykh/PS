@@ -119,11 +119,13 @@ gulp.task('js', ['js:minify']);
 // Default task
 gulp.task('default', ['css', 'js', 'vendor']);
 
-gulp.task('webserver', function() {
+gulp.task('serveprod', function() {
   connect.server({
-    port:6800
+    path:'./index.html',
+    port:6800,
+    livereload: false
   });
 });
 
 // Dev task
-gulp.task('dev', ['css', 'js', 'webserver']);
+gulp.task('dev', ['css', 'js', 'serveprod']);
