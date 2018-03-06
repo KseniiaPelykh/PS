@@ -1,14 +1,101 @@
 {
-  "name": "site",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_args": [
+    [
+      "startbootstrap-resume",
+      "/home/kseniia/Work/site"
+    ]
+  ],
+  "_from": "startbootstrap-resume@latest",
+  "_id": "startbootstrap-resume@4.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/startbootstrap-resume",
+  "_nodeVersion": "7.8.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/startbootstrap-resume-4.0.0.tgz_1517259689755_0.7837991886772215"
   },
-  "author": "Kseniia Pelykh",
-  "license": "ISC",
+  "_npmUser": {
+    "email": "feedback@startbootstrap.com",
+    "name": "startbootstrap"
+  },
+  "_npmVersion": "5.6.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "startbootstrap-resume",
+    "raw": "startbootstrap-resume",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/startbootstrap-resume/-/startbootstrap-resume-4.0.0.tgz",
+  "_shasum": "c9700ad0a65429d125b10c1e29b06dd6eb0dba3b",
+  "_shrinkwrap": null,
+  "_spec": "startbootstrap-resume",
+  "_where": "/home/kseniia/Work/site",
+  "author": {
+    "name": "Start Bootstrap"
+  },
+  "bugs": {
+    "email": "feedback@startbootstrap.com",
+    "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues"
+  },
+  "contributors": [
+    {
+      "name": "David Miller",
+      "url": "http://davidmiller.io/"
+    }
+  ],
   "dependencies": {
-    "express": "^4.16.2"
-  }
+    "bootstrap": "4.0.0",
+    "devicons": "^1.8.0",
+    "jquery": "3.3.1",
+    "simple-line-icons": "^2.4.1"
+  },
+  "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
+  "devDependencies": {
+    "browser-sync": "2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "3.9.2",
+    "gulp-header": "2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "3.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-qxu4OqggGwZjPXwjKMb8PZ8+wTPq/VWTUMI+dUA4TcAnMmtqBSnlE9CFt952JhBNgy+AwqTKofq8aYDyotSsHA==",
+    "shasum": "c9700ad0a65429d125b10c1e29b06dd6eb0dba3b",
+    "tarball": "https://registry.npmjs.org/startbootstrap-resume/-/startbootstrap-resume-4.0.0.tgz"
+  },
+  "gitHead": "7e2698bb0bf9bd9884b2286f5b633f8046e33fde",
+  "homepage": "https://startbootstrap.com/template-overviews/resume",
+  "keywords": [
+    "css",
+    "html",
+    "responsive",
+    "sass",
+    "template",
+    "theme"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "startbootstrap",
+      "email": "feedback@startbootstrap.com"
+    }
+  ],
+  "name": "startbootstrap-resume",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlackrockDigital/startbootstrap-resume.git"
+  },
+  "title": "Resume",
+  "version": "4.0.0"
 }
