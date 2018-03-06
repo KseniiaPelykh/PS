@@ -90,9 +90,9 @@
     }
   ],
   "name": "startbootstrap-resume",
-  “scripts”: {
-    “start”: “node app”,
-    “postinstall”: “gulp default”
+  "scripts": {
+    "start": "node app",
+    "postinstall": "gulp default"
   },
   "optionalDependencies": {},
   "readme": "ERROR: No README data found!",
