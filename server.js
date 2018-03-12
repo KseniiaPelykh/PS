@@ -1,7 +1,7 @@
 const express = require('express');
 const serveStatic = require('serve-static');
 const compression = require('compression');
-const port = process.env.PORT || 6900;
+const port = process.env.PORT || 6700;
 const domain =  process.env.DOMAIN;
 
 function ensureDomain(req, res, next) {
